@@ -8,7 +8,7 @@ const IndexPage = () => {
 
 	// Site A -> Site B
 	const onClickProductSku = (sku: string) => {
-		setProductUrl(`hhttps://dev.arvory.com.br/widgets/product/${sku}`)
+		setProductUrl(`https://dev.arvory.com.br/widgets/product/${sku}`)
 
 		const windowTop = window.top;
 		if (!windowTop) return;
